@@ -12,6 +12,8 @@ https://github.com/kanaka/miniMAL
 
 https://github.com/machellerogden/yatl
 
+https://github.com/kanaka/mal/tree/master/clojure
+
 ## Usage
 
 ```
