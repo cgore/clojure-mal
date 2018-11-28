@@ -7,11 +7,15 @@
   (println "OKAY ...")
   (println result))
 
+(defn evaluator [input]
+  (let [result input]
+    result))
+
 (defn repl-loop []
   (println "HOWDY >")
-  (let [input-line (reader)]
-    (when input-line
-      (printer input-line)
+  (let [input (reader)]
+    (when input
+      (printer (evaluator input))
       (recur))))
 
 (defn -main [& args]
