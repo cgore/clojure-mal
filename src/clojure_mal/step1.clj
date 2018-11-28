@@ -1,8 +1,11 @@
-(ns clojure-mal.step0)
+(ns clojure-mal.step1)
+
+(defn reader []
+  (read-line))
 
 (defn repl-loop []
   (println "HOWDY >")
-  (let [input-line (read-line)]
+  (let [input-line (reader)]
     (when input-line
       (println "OKAY ...")
       (println input-line)
