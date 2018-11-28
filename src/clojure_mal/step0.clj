@@ -2,7 +2,9 @@
 
 (defn repl-loop []
   (let [input-line (read-line)]
-    (println "HOWDY > " input-line)))
+    (when input-line
+      (println "HOWDY >" input-line)
+      (recur))))
 
 (defn -main [& args]
   (repl-loop))
