@@ -2,6 +2,16 @@
 
 A Clojure library designed to ... well, that part is up to you.
 
+## References
+
+https://github.com/kanaka/mal/blob/master/process/guide.md
+
+https://github.com/kanaka/mal
+
+https://github.com/kanaka/miniMAL
+
+https://github.com/machellerogden/yatl
+
 ## Usage
 
 ```
